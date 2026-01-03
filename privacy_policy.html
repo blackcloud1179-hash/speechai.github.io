@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chính sách bảo mật - AI Học Viết</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --bg: #0f172a;
+            --card-bg: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --border: rgba(255, 255, 255, 0.1);
+        }
+
+        @media (prefers-color-scheme: light) {
+            :root {
+                --primary: #4f46e5;
+                --bg: #f1f5f9;
+                --card-bg: #ffffff;
+                --text-primary: #1e293b;
+                --text-secondary: #475569;
+                --text-muted: #94a3b8;
+                --border: rgba(0, 0, 0, 0.1);
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 24px;
+            padding: 40px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid var(--border);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: var(--text-primary);
+        }
+
+        .last-updated {
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+
+        .section {
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: var(--primary);
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+            font-size: 16px;
+        }
+
+        ul {
+            list-style: none;
+            margin-bottom: 16px;
+        }
+
+        li {
+            position: relative;
+            padding-left: 24px;
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+            font-size: 16px;
+        }
+
+        li::before {
+            content: "•";
+            position: absolute;
+            left: 8px;
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 16px;
+            }
+            .card {
+                padding: 24px;
+                border-radius: 16px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            h2 {
+                font-size: 18px;
+            }
+            p, li {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <header>
+                <div style="margin-bottom: 20px;">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                    </svg>
+                </div>
+                <h1>Chính sách bảo mật</h1>
+                <p class="last-updated">Cập nhật lần cuối: 01/01/2026</p>
+            </header>
+
+            <div class="content">
+                <div class="section">
+                    <h2>1. Giới thiệu</h2>
+                    <p>Chào mừng bạn đến với AI Học Viết ("Ứng dụng"). Chúng tôi cam kết bảo vệ quyền riêng tư và dữ liệu cá nhân của bạn. Chính sách bảo mật này giải thích cách chúng tôi thu thập, sử dụng và bảo vệ thông tin của bạn khi bạn sử dụng ứng dụng của chúng tôi.</p>
+                </div>
+
+                <div class="section">
+                    <h2>2. Dữ liệu chúng tôi thu thập</h2>
+                    <p>Để cung cấp các tính năng cốt lõi của Ứng dụng, chúng tôi yêu cầu quyền truy cập vào một số tính năng trên thiết bị của bạn:</p>
+                    <ul>
+                        <li><strong>Microphone:</strong> Được sử dụng để ghi âm giọng nói của bạn cho tính năng nhận dạng giọng nói (Speech-to-Text) và luyện phát âm.</li>
+                        <li><strong>Camera & Thư viện ảnh:</strong> Được sử dụng để quét văn bản (OCR) từ sách hoặc tài liệu học tập của bạn.</li>
+                        <li><strong>Dữ liệu sử dụng:</strong> Chúng tôi lưu trữ cục bộ tiến độ học tập, điểm số và các bài học đã lưu của bạn.</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>3. Cách chúng tôi sử dụng dữ liệu</h2>
+                    <p>Chúng tôi ưu tiên xử lý dữ liệu ngay trên thiết bị của bạn (On-device Processing):</p>
+                    <ul>
+                        <li><strong>Xử lý AI:</strong> Các mô hình AI (như nhận dạng giọng nói, chatbot) chạy trực tiếp trên thiết bị của bạn. Dữ liệu giọng nói và văn bản của bạn KHÔNG bị gửi đến máy chủ của chúng tôi hay bên thứ ba để xử lý.</li>
+                        <li><strong>Không thu thập danh tính:</strong> Chúng tôi không yêu cầu đăng ký tài khoản và không thu thập tên, email, hay số điện thoại của bạn.</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>4. Chia sẻ dữ liệu</h2>
+                    <p>Chúng tôi KHÔNG bán, trao đổi hoặc chuyển giao dữ liệu cá nhân của bạn cho bên thứ ba. Tất cả dữ liệu học tập được lưu trữ nội bộ trên thiết bị của bạn. Bạn có toàn quyền kiểm soát và xóa dữ liệu này bất cứ lúc nào thông qua phần Cài đặt của ứng dụng.</p>
+                </div>
+
+                <div class="section">
+                    <h2>5. Quyền của trẻ em</h2>
+                    <p>Ứng dụng của chúng tôi an toàn cho trẻ em và tuân thủ các quy định về bảo vệ quyền riêng tư của trẻ em (COPPA). Chúng tôi không cố ý thu thập thông tin cá nhân từ trẻ em dưới 13 tuổi.</p>
+                </div>
+
+                <div class="section">
+                    <h2>6. Thay đổi chính sách</h2>
+                    <p>Chúng tôi có thể cập nhật Chính sách bảo mật này theo thời gian để phản ánh các thay đổi về tính năng hoặc quy định pháp luật. Chúng tôi khuyến khích bạn xem lại trang này thường xuyên để cập nhật thông tin mới nhất.</p>
+                </div>
+
+                <div class="section">
+                    <h2>7. Liên hệ</h2>
+                    <p>Nếu bạn có bất kỳ câu hỏi nào về Chính sách bảo mật này, vui lòng liên hệ với chúng tôi qua:</p>
+                    <ul>
+                        <li>Email: <a href="mailto:kidsdiamond.edu@gmail.com" style="color: var(--primary); text-decoration: none;">kidsdiamond.edu@gmail.com</a></li>
+                        <li>Điện thoại: <a href="tel:0379709737" style="color: var(--primary); text-decoration: none;">0379709737</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <footer>
+                <p>&copy; 2026 AI Học Viết. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
