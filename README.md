@@ -6,11 +6,11 @@ Repository này dùng để host trang Chính sách bảo mật (Privacy Policy)
 
 ### ✅ Link Chính (Direct Link)
 Dùng link này để điền vào **Google Play Console** hoặc **App Store Connect**:
-> **[https://blackcloud1179-hash.github.io/github.io/privacy_policy.html](https://blackcloud1179-hash.github.io/github.io/privacy_policy.html)**
+> **[https://speech.github.io/privacy_policy.html](https://speech.github.io/privacy_policy.html)**
 
 ### 🏠 Link Gốc (Root Link)
 Nếu truy cập link này, nó sẽ tự động chuyển hướng sang trang chính sách (nhờ file `index.html`):
-> [https://blackcloud1179-hash.github.io/github.io/](https://blackcloud1179-hash.github.io/github.io/)
+> [https://speech.github.io/](https://speech.github.io/)
 
 ---
 
